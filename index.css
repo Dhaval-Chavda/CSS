@@ -127,25 +127,242 @@ border-collapse
 
 /* properties */ 
 
-.back
+/* .back
 {
     background-image: url("pexels-pixabay-268533.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
+    background-attachment:fixed;
+    background-attachment:scroll;
+} */
+
+p{
+    /* text-decoration: underline;
+    text-align: center;
+    border: 2px solid red; */
+    /* text-decoration: overline;           line ni uper liti karava mate  */
+    /* text-decoration: line-through;       akhi line ma cheko marva mate */
+    /* text-transform: uppercase;
+    text-transform: capitalize; */
+
+    /* line-height: 10px;      /* be line vachhe space leva mate*/
+
+    /* text-indent: 10px;       paragraph padva mate */
+    /* letter-spacing: 2px;        latters vachhe spavce apva mate */ 
+    /* word-spacing: 50px; */
 }
-nav
+
+a{
+    /* text-decoration: none;        under line kadhva */
+
+}
+
+                                /* four types of links */
+/* 
+a:link{
+    color: blue;
+}
+a:visited{
+    color: dark blue;
+
+}
+a:hover
 {
+    color: red;
+}
+a:active{
+    color: green;
+} */
+
+
+/*================================================= Imges Filter ATTRIBUTES ===================================================*/  
+
+img{
+    /* filter: blur(10px); */
+    /* filter: brightness(20%); */
+    /* filter: contrast(17%); */
     
 }
 
 
+                                                /* Variables banavva mate  */
+/* 
+            :root{
+                --primary-color: red;
+                --btn-color: grey;
+                --text-color: black;
+
+            } */
+p{
+    /* background-color: var(--primary-color);            (Funtions) */
+    /* height: 200px; */
+}
 
 
 
+                                                         /* Pseudo-classes  */
+/* 
+li:nth-child(){
+    color: red;
+}
+li:first-child{
+    color: green;
+}
+ input:focus{
+  
+    border: 5px solid green
+ } */
 
 
+                                                         /* Pseudo-classes  */
 
 
+/* p::first-letter{
+    font-size: 35px;
+    color: red;
+}
+h1::before{
+    content: "Na hoy!";
+}
+h1::after
+{
+    content: "Helo Welcome";
+}
+::selection{
+    background-color: yellow;
+} */
+
+
+                                                            /* Display Property */
+.a{
+    /* border: 2px solid red; */
+    /* height: 50px;
+    width: 20%; */
+    /* display: inline-block;       
+    display: block;
+    display: inline;                                      */
+}
+
+.parent{
+    /* background-color: black;
+    display: flex; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-wrap: nowrap;            <--------      jetli width hoy emamthi automatic set thay jay chhe */
+    /* flex-wrap: wrap;              <-------     ama width adjust nay thay */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: flex-start; 
+    justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+
+}
+/* .child
+{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+} */
+
+html{
+    font-size: 62.5%;
+}
+.back-img{
+    height: 95vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("./images/canyon-1740973_1920.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.nav
+{
+    /* border: 2px solid white; */
+    padding-top: 1.6rem;
+}
+.nav .logo
+{
+    color:white;
+    float: left;
+    margin-top: 1.6rem;
+    font-size: 1.9rem;
+}
+.nav .nav-items{
+    float: right;
+   
+}
+.nav::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+.nav .nav-items .nav-item
+{
+    color: white;
+    display: inline-block;
+    margin: 10px;
+}
+ul li{
+    list-style: none ;
+}
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+}
+h1, h2, h3{
+    
+}
+.container
+{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+a:hover{
+        border-bottom: 2px solid white !important;
+}
+
+.heading
+{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.details{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.btn
+{
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    background-color: white;
+    color: red;
+    border-radius: 100px;
+}
+.content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
 
